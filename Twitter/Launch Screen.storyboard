@@ -16,12 +16,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="TwitterLogoBlue" translatesAutoresizingMaskIntoConstraints="NO" id="yKz-0i-9OT">
-                                <rect key="frame" x="73" y="187" width="228" height="243"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="TwitterLogoBlue" translatesAutoresizingMaskIntoConstraints="NO" id="yKz-0i-9OT">
+                                <rect key="frame" x="87.5" y="233.5" width="200" height="200"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yKz-0i-9OT" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="86c-z4-RGD"/>
+                            <constraint firstItem="yKz-0i-9OT" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="87.5" id="BNx-fX-0Y0"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="yKz-0i-9OT" secondAttribute="trailing" constant="87.5" id="EZI-ig-7ue"/>
+                            <constraint firstItem="yKz-0i-9OT" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="IGR-5z-n6p"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="yKz-0i-9OT" secondAttribute="bottom" constant="233.5" id="VHl-7n-N3u"/>
+                            <constraint firstItem="yKz-0i-9OT" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="233.5" id="iwj-JK-gYl"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                     </view>
                 </viewController>
